@@ -14,62 +14,62 @@
 }
 
 @font-face {
-    font-family: 'Roboto-Black';
+    font-family: 'roboto-Black';
     src: url('fonts/Roboto-Black.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Roboto-BlackItalic';
+    font-family: 'roboto-BlackItalic';
     src: url('fonts/Roboto-BlackItalic.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Roboto-Bold';
+    font-family: 'roboto-Bold';
     src: url('fonts/Roboto-Bold.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Roboto-BoldItalic';
+    font-family: 'roboto-BoldItalic';
     src: url('fonts/Roboto-BoldItalic.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Roboto-Italic';
+    font-family: 'roboto-Italic';
     src: url('fonts/Roboto-Italic.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Roboto-Light';
+    font-family: 'roboto-Light';
     src: url('fonts/Roboto-Light.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Roboto-LightItalic';
+    font-family: 'roboto-LightItalic';
     src: url('fonts/Roboto-LightItalic.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Roboto-Medium';
+    font-family: 'roboto-Medium';
     src: url('fonts/Roboto-Medium.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Roboto-MediumItalic';
+    font-family: 'roboto-MediumItalic';
     src: url('fonts/Roboto-Bold.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Roboto-Regular';
+    font-family: 'roboto-Regular';
     src: url('fonts/Roboto-Regular.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Roboto-Thin';
+    font-family: 'roboto-Thin';
     src: url('fonts/Roboto-Thin.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Roboto-ThinItalic';
+    font-family: 'roboto-ThinItalic';
     src: url('fonts/Roboto-ThinItalic.ttf') format('truetype');
 }
 
@@ -150,7 +150,11 @@
         width: 70%;
         height: 20%;
         left: 6%;
-        top: 14%;
+        top: 85px;
+    }
+
+    .angle-left-container, .angle-right-container{
+        display: none;
     }
 
     .headerTitle {
@@ -1095,7 +1099,7 @@
     .map {
         margin-top: 5%;
         width: 100%;
-        height: 125%;
+        height: 800px;
         border: 0;
     }
 
@@ -1103,7 +1107,7 @@
         margin-top: 5%;
         position: absolute;
         width: 100%;
-        height: 83%;
+        height: 800px;
         background-color: skyblue;
         opacity: 0.2;
         border-top: 2px solid black;
