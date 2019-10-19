@@ -1,76 +1,76 @@
  @font-face {
     font-family: 'fontAwesome';
-    src: url('./fonts/fontAwesome-webfont.eot');
-    src: url('./fonts/fontAwesome-webfont.svg'),
-        url('./fonts/fontAwesome-webfont.ttf') format('truetype'),
-        url('./fonts/fontAwesome-webfont.woff');
+    src: url('../fonts/fontAwesome-webfont.eot');
+    src: url('../fonts/fontAwesome-webfont.svg'),
+        url('../fonts/fontAwesome-webfont.ttf') format('truetype'),
+        url('../fonts/fontAwesome-webfont.woff');
 }
 
 @font-face {
     font-family: 'glyphicons-halfings-regular';
-    src: url('./fonts/glyphicons-halfings-regular.eot');
-    src: url('./fonts/glyphicons-halfings-regular.ttf') format('truetype'),
-        url('./fonts/glyphicons-halfings-regular.woff');
+    src: url('../fonts/glyphicons-halfings-regular.eot');
+    src: url('../fonts/glyphicons-halfings-regular.ttf') format('truetype'),
+        url('../fonts/glyphicons-halfings-regular.woff');
 }
 
 @font-face {
     font-family: 'roboto-Black';
-    src: url('./fonts/roboto-Black.ttf') format('truetype');
+    src: url('../fonts/roboto-Black.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'roboto-BlackItalic';
-    src: url('./fonts/roboto-BlackItalic.ttf') format('truetype');
+    src: url('../fonts/roboto-BlackItalic.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'roboto-Bold';
-    src: url('./fonts/roboto-Bold.ttf') format('truetype');
+    src: url('../fonts/roboto-Bold.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'roboto-BoldItalic';
-    src: url('./fonts/roboto-BoldItalic.ttf') format('truetype');
+    src: url('../fonts/roboto-BoldItalic.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'roboto-Italic';
-    src: url('./fonts/roboto-Italic.ttf') format('truetype');
+    src: url('../fonts/roboto-Italic.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'roboto-Light';
-    src: url('./fonts/roboto-Light.ttf') format('truetype');
+    src: url('../fonts/roboto-Light.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'roboto-LightItalic';
-    src: url('./fonts/roboto-LightItalic.ttf') format('truetype');
+    src: url('../fonts/roboto-LightItalic.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'roboto-Medium';
-    src: url('./fonts/roboto-Medium.ttf') format('truetype');
+    src: url('../fonts/roboto-Medium.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'roboto-MediumItalic';
-    src: url('./fonts/roboto-Bold.ttf') format('truetype');
+    src: url('../fonts/roboto-Bold.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'roboto-Regular';
-    src: url('./fonts/roboto-Regular.ttf') format('truetype');
+    src: url('../fonts/roboto-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'roboto-Thin';
-    src: url('./fonts/roboto-Thin.ttf') format('truetype');
+    src: url('../fonts/roboto-Thin.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'roboto-ThinItalic';
-    src: url('./fonts/roboto-ThinItalic.ttf') format('truetype');
+    src: url('../fonts/roboto-ThinItalic.ttf') format('truetype');
 }
 
 
