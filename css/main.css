@@ -178,7 +178,11 @@
     }
 
     .buttonHeader {
-        margin-top: 4%;
+        display: block;
+        margin-top: 10px;
+        text-decoration: none;
+        width: 30%;
+        text-align: center;
         font-family: 'roboto-Medium';
         font-size: 85%;
         padding: 7px 15px 7px 15px;
@@ -272,7 +276,6 @@
     .fa-stack {
         margin-right: 7%;
         margin-left: 5%;
-        padding-bottom: -5%;
         border: 1px solid gray;
         border-radius: 50%;
         height: 30px;
@@ -304,7 +307,7 @@
     }
 
     .conteneurIcons{
-        width: _0%;
+        width: 100%;
         display: block;
     }
 
@@ -712,9 +715,13 @@
     }
 
     .buttonHeader {
-        margin-top: 6%;
+        display: block;
+        width: 30%;
+        text-align: center;
         font-family: 'roboto-Medium';
         font-size: 90%;
+        margin-top: 15px;
+        text-decoration: none;
         padding: 7px 15px 7px 15px;
         border-radius: 4px;
         border: 0px;
@@ -821,7 +828,6 @@
     .fa-stack{
         margin-right: 7%;
         margin-left: 5%;
-        padding-bottom: -5%;
         border: 1px solid gray;
         border-radius: 50%;
         height: 30px;
@@ -1264,11 +1270,15 @@
     }
 
     .buttonHeader {
+        display: block;
+        width: 20%;
+        text-align: center;
         font-family: 'roboto-Medium';
+        text-decoration: none;
         font-size: 120%;
         padding: 13px 21px 13px 21px;
-        margin-top: 25px;
-        border-radius: 4px;
+        margin-top: 30px;
+        border-radius: 6px;
         border: 0px;
         color: white;
         background-color: #4EB4DB;
@@ -1586,7 +1596,7 @@
         font-family: 'roboto-Medium';
     }
 
-    #cerclePhoto {
+    #cerclePhoto, #cerclePhoto2, #cerclePhoto3, #cerclePhoto4, #cerclePhoto5, #cerclePhoto6, #cerclePhoto7, #cerclePhoto8, #cerclePhoto9 {
         position: relative;
         top: -65px;
         right: -200px;
