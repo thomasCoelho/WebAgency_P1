@@ -4,64 +4,65 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="copyright" content="WebAgency"/>
+    <meta name="description" content="La WebAgency vous propose un accompagnement personnalisé pour améliorer votre présence sur le web."/>
     <title>WebAgency</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/fontawesome-free-5.11.2-web/fontawesome-free-5.11.2-web/css/all.css">
     <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/fontawesome-free-5.11.2-web/fontawesome-free-5.11.2-web/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <!-- Menu et logo -->
-    <div id="header-menu">
+    <nav class="nav-menu">
         <img class="logo-pic" src="images/logo.png" alt="logo">
-            <ul class="menu">
-                <li class="li-menu"><a href="#header" class="ancre-menu">Accueil</a></li>
-                <li class="li-menu"><a href="#service" class="ancre-menu">Services</a></li>
-                <li class="li-menu"><a href="#projet" class="ancre-menu">Portfolio</a></li>
-                <li class="li-menu"><a href="#contact" class="ancre-menu">Contact</a></li>
-            </ul>
-
-    </div>
+        <ul class="menu">
+            <li class="li-menu"><a href="#header" class="ancre-menu">Accueil</a></li>
+            <li class="li-menu"><a href="#service" class="ancre-menu">Services</a></li>
+            <li class="li-menu"><a href="#projet" class="ancre-menu">Portfolio</a></li>
+            <li class="li-menu"><a href="#contact" class="ancre-menu">Contact</a></li>
+        </ul>
+    </nav>
 
     <!-- photo, texte et bouton d'en tête -->
 
-    <div id="header">
-        <div class="angle-left-container">
-            <button class="fas fa-angle-left"></button>
-        </div>
-        <div class="angle-right-container">
-            <button class="fas fa-angle-right"></button>
-        </div>
-            <img class="slider-deux" src="images/slider/bg2.jpg" alt="">
-            <img class="slider-un" src="images/slider/bg1.jpg" alt="">
+    <header>
+        <img class="slider-deux" src="images/slider/bg2.jpg" alt="">
+        <img class="slider-un" src="images/slider/bg1.jpg" alt="">
 
-
-        <div class="header-pic-over">
-            <h2 class="header-title"><span class="blue-text">WEBAGENCY</span><span class="white-text"> : L'AGENCE DE TOUS VOS PROJETS !</span></h2>
+        <aside class="header-pic-over">
+            <h1 class="header-title"><span class="blue-text">WEBAGENCY</span><span class="white-text"> : L'AGENCE DE TOUS VOS PROJETS !</span></h1>
             <p class="header-text"><span class="white-text">Vous avez un projet web ? la WebAgency vous aide à le réaliser !</span></p>
             <a class="button-header" href="#service">Plus d'infos</a>
-        </div>
-    </div>
+        </aside>
+        <nav id="angle-container">
+            <div class="angle-left-container">
+                <button class="fas fa-angle-left"></button>
+            </div>
+            <div class="angle-right-container">
+                <button class="fas fa-angle-right"></button>
+            </div>
+        </nav>
+    </header>
 
-       <!-- en tete page services -->
-    <div class="presentation">
+    <!-- en tete page services -->
+    <section class="presentation">
         <h2 id="service">NOS SERVICES</h2>
         <div class="deco-service">
             <div class="trait"></div>
             <div class="div-cercle-service">
-            <i class="fas fa-circle" id="cercle-service"></i>
-            <i class="fas fa-circle" id="sous-cercle-service"></i>
-        </div>
+                <i class="fas fa-circle" id="cercle-service"></i>
+            </div>
         </div>
         <p class="p-service">Situé dans le 10ème arrondissement de Paris, la WebAgency vous accompagne dans vos projets numériques et met à votre disposition plusieurs services.</p>
-    </div>
+    </section>
     <!-- Image -->
-    <span><img class="pic-service" src="images/main-feature.png" alt=""></span>
+    <img class="pic-service" src="images/main-feature.png" alt="">
 
-   <!-- Creation des icones et du texte -->
-    <div class="conteneurs-icons">
-        <div class="conteneur-un">
-            <span class="fa-stack fa-2x">
+    <!-- Creation des icones et du texte -->
+    <aside class="conteneurs-icons">
+        <article class="conteneur-un">
+            <span class="stack">
                 <i class="fas fa-chart-line"></i>
                 <i class="fas fa-circle " id="cercle-service-un"></i>
             </span>
@@ -69,10 +70,10 @@
                 <h3>UX Design</h3>
                 <p class="text-service">Un site ergonomique et intuitif optimisé pour l'expérience client.</p>
             </div>
-        </div>
+        </article>
 
-        <div class="conteneur-deux">
-            <span class="fa-stack fa-2x">
+        <article class="conteneur-deux">
+            <span class="stack">
                 <i class="fas fa-cubes"></i>
                 <i class="fas fa-circle" id="cercle-service-deux"></i>
             </span>
@@ -80,10 +81,10 @@
                 <h3>UI Design</h3>
                 <p class="text-service">Une création de visuels personnalisés et adaptés à vos besoins.</p>
             </div>
-        </div>
+        </article>
 
-        <div class="conteneur-trois">
-            <span class="fa-stack fa-2x">
+        <article class="conteneur-trois">
+            <span class="stack">
                 <i class="fas fa-chart-pie"></i>
                 <i class="fas fa-circle" id="cercle-service-trois"></i>
             </span>
@@ -91,156 +92,176 @@
                 <h3>SEO</h3>
                 <p class="text-service">Un référencement naturel afin d'augmenter sa visibilité en ligne.</p>
             </div>
-        </div>
-    </div>
+        </article>
+    </aside>
 
-    <div id="projet">
-    <div class="header-projet">
-        <h2 class="titre-projet">NOS PROJETS</h2>
-        <div class="deco-projet">
-            <div class="trait"></div>
-            <div class="div-cercle-projet">
-            <i class="fas fa-circle" id="cercle-projet"></i>
-            <i class="fas fa-circle" id="sous-cercle-projet"></i>
-        </div>
-        </div>
-        <p class="p-projet">Envie de voir de quoi nous sommes capable? Jetez un coup d'oeil aux réalisations de la WebAgency.</p>
-    </div>
-
-    <div class="bouton-projet">
-        <div class="div-bouton">
-        <button class="bouton" id="bouton-un">All Works</button>
-        <i class="fas fa-caret-down" id="fleche-un"></i>
-        </div>
-        <div class="div-bouton">
-        <button class="bouton" id="bouton-deux">Creative</button>
-        <i class="fas fa-caret-down" id="fleche-deux"></i>
-        </div>
-        <div class="div-bouton">
-        <button class="bouton" id="bouton-trois">Corporate</button>
-        <i class="fas fa-caret-down" id="fleche-trois"></i>
-        </div>
-        <div class="div-bouton">
-        <button class="bouton" id="bouton-quatre">Portfolio</button>
-        <i class="fas fa-caret-down" id="fleche-quatre"></i>
-        </div>
-    </div>
-
-    <div class="photo-projet">
-       <div class="conteneur-photo">
-        <div class="photo-un">
-            <img class="image-un" src="images/portfolio/01.jpg" alt="">
-            <div class="desc-photo-un">
-            <h4 class="titre-photo">Salomon SAS</h4>
-            <p class="p-photo">Création de site vitrine.</p>
-                <i class="fas fa-circle" id="cercle-photo"></i>
-                <a class="lien" href="images/portfolio/01.jpg"><i class="far fa-eye"></i></a>
+    <!-- section projet -->
+    <section id="projet">
+        <header class="header-projet">
+            <h2 class="titre-projet">NOS PROJETS</h2>
+            <div class="deco-projet">
+                <div class="trait"></div>
+                <div class="div-cercle-projet">
+                    <i class="fas fa-circle" id="cercle-projet"></i>
+                </div>
             </div>
-        </div>
+            <p class="p-projet">Envie de voir de quoi nous sommes capable? Jetez un coup d'oeil aux réalisations de la WebAgency.</p>
+        </header>
 
-        <div class="photo-deux">
-            <img class="image-deux" src="images/portfolio/02.jpg" alt="">
-            <div class="desc-photo-deux">
-                <h4 class="titre-photo">Tradival</h4>
-                <p class="p-photo">Création de site vitrine.</p>
-                <i class="fas fa-circle" id="cercle-photo-deux"></i>
-                <a class="lien" href="images/portfolio/02.jpg"><i class="far fa-eye"></i></a>
+        <!-- Boutons + fleches -->
+        <nav class="bouton-projet">
+            <div class="div-bouton">
+                <button class="bouton" id="bouton-un">All Works</button>
+                <i class="fas fa-caret-down" id="fleche-un"></i>
             </div>
-        </div>
+            <div class="div-bouton">
+                <button class="bouton" id="bouton-deux">Creative</button>
+                <i class="fas fa-caret-down" id="fleche-deux"></i>
+            </div>
+            <div class="div-bouton">
+                <button class="bouton" id="bouton-trois">Corporate</button>
+                <i class="fas fa-caret-down" id="fleche-trois"></i>
+            </div>
+            <div class="div-bouton">
+                <button class="bouton" id="bouton-quatre">Portfolio</button>
+                <i class="fas fa-caret-down" id="fleche-quatre"></i>
+            </div>
+        </nav>
 
-        <div class="photo-trois">
-            <img class="image-trois" src="images/portfolio/03.jpg" alt="">
-            <div class="desc-photo-trois">
-                <h4 class="titre-photo">Keolis Lyon</h4>
-                <p class="p-photo">Création d'application web.</p>
-                <i class="fas fa-circle" id="cercle-photo-trois"></i>
-                <a class="lien" href="images/portfolio/03.jpg"><i class="far fa-eye"></i></a>
-            </div>
-        </div>
+        <!-- Ajout des images projet -->
+        <section class="photo-projet">
+            <aside class="conteneur-photo">
+                <figure class="photo-un">
+                    <img class="image-un" src="images/portfolio/01.jpg" alt="Projet Salomon">
+                    <figcaption class="desc-photo-un">
+                        <h4 class="titre-photo">Salomon SAS</h4>
+                        <p class="p-photo">Création de site vitrine.</p>
+                        <div id="div-cercle-photo">
+                            <i class="fas fa-circle" id="cercle-photo"></i>
+                            <a class="lien" href="images/portfolio/01.jpg"><i class="far fa-eye"></i></a>
+                        </div>
+                    </figcaption>
+                </figure>
 
-        <div class="photo-quatre">
-            <img class="image-quatre" src="images/portfolio/04.jpg" alt="">
-            <div class="desc-photo-quatre">
-                <h4 class="titre-photo">LDLC.COM</h4>
-                <p class="p-photo">Création de sites E-commerce.</p>
-                <i class="fas fa-circle" id="cercle-photo-quatre"></i>
-                <a class="lien" href="images/portfolio/04.jpg"><i class="far fa-eye"></i></a>
-            </div>
-        </div>
-        </div>
-        <div class="conteneur-photo">
-        <div class="photo-cinq">
-            <img class="image-cinq" src="images/portfolio/05.jpg" alt="">
-            <div class="desc-photo-cinq">
-                <h4 class="titre-photo">Plastic Omnium</h4>
-                <p class="p-photo">Création de site vitrine.</p>
-                <i class="fas fa-circle" id="cercle-photo-cinq"></i>
-                <a class="lien" href="images/portfolio/05.jpg"><i class="far fa-eye"></i></a>
-            </div>
-        </div>
+                <figure class="photo-deux">
+                    <img class="image-deux" src="images/portfolio/02.jpg" alt="Projet Tradival">
+                    <figcaption class="desc-photo-deux">
+                        <h4 class="titre-photo">Tradival</h4>
+                        <p class="p-photo">Création de site vitrine.</p>
+                        <div id="div-cercle-photo">
+                            <i class="fas fa-circle" id="cercle-photo"></i>
+                            <a class="lien" href="images/portfolio/02.jpg"><i class="far fa-eye"></i></a>
+                        </div>
+                    </figcaption>
+                </figure>
 
-        <div class="photo-six">
-            <img class="image-six" src="images/portfolio/06.jpg" alt="">
-            <div class="desc-photo-six">
-                <h4 class="titre-photo">Colas Rhône-Alpes</h4>
-                <p class="p-photo">Création d'application web.</p>
-                <i class="fas fa-circle" id="cercle-photo-six"></i>
-                <a class="lien" href="images/portfolio/06.jpg"><i class="far fa-eye"></i></a>
-            </div>
-        </div>
+                <figure class="photo-trois">
+                    <img class="image-trois" src="images/portfolio/03.jpg" alt="Projet Keolis">
+                    <figcaption class="desc-photo-trois">
+                        <h4 class="titre-photo">Keolis Lyon</h4>
+                        <p class="p-photo">Création d'application web.</p>
+                        <div id="div-cercle-photo">
+                            <i class="fas fa-circle" id="cercle-photo"></i>
+                            <a class="lien" href="images/portfolio/03.jpg"><i class="far fa-eye"></i></a>
+                        </div>
+                    </figcaption>
+                </figure>
 
-        <div class="photo-sept">
-            <img class="image-sept" src="images/portfolio/07.jpg" alt="">
-            <div class="desc-photo-sept">
-                <h4 class="titre-photo">Ugitech</h4>
-                <p class="p-photo">Création de sites E-commerce.</p>
-                <i class="fas fa-circle" id="cercle-photo-sept"></i>
-                <a class="lien" href="images/portfolio/07.jpg"><i class="far fa-eye"></i></a>
-            </div>
-        </div>
+                <figure class="photo-quatre">
+                    <img class="image-quatre" src="images/portfolio/04.jpg" alt="Projet LDLC">
+                    <figcaption class="desc-photo-quatre">
+                        <h4 class="titre-photo">LDLC.COM</h4>
+                        <p class="p-photo">Création de sites E-commerce.</p>
+                        <div id="div-cercle-photo">
+                            <i class="fas fa-circle" id="cercle-photo"></i>
+                            <a class="lien" href="images/portfolio/04.jpg"><i class="far fa-eye"></i></a>
+                        </div>
+                    </figcaption>
+                </figure>
+            </aside>
+            <aside class="conteneur-photo">
+                <figure class="photo-cinq">
+                    <img class="image-cinq" src="images/portfolio/05.jpg" alt="Projet AVIVA">
+                    <figcaption class="desc-photo-cinq">
+                        <h4 class="titre-photo">AVIVA</h4>
+                        <p class="p-photo">Création de site vitrine.</p>
+                        <div id="div-cercle-photo">
+                            <i class="fas fa-circle" id="cercle-photo"></i>
+                            <a class="lien" href="images/portfolio/05.jpg"><i class="far fa-eye"></i></a>
+                        </div>
+                    </figcaption>
+                </figure>
 
-        <div class="photo-huit">
-            <img class="image-huit" src="images/portfolio/08.jpg" alt="">
-            <div class="desc-photo-huit">
-                <h4 class="titre-photo">Mabeo Industries</h4>
-                <p class="p-photo">Création de sites E-commerce.</p>
-                <i class="fas fa-circle" id="cercle-photo-huit"></i>
-                <a class="lien" href="images/portfolio/08.jpg"><i class="far fa-eye"></i></a>
-            </div>
-        </div>
-        </div>
-        <div class="conteneur-photo" id="photo-resp-tablette">
-        <div class="photo-neuf">
-            <img class="image-neuf" src="images/portfolio/full.jpg" alt="">
-            <div class="desc-photo-neuf">
-                <h4 class="titre-photo">Big Fernand</h4>
-                <p class="p-photo">Création de site vitrine.</p>
-                <i class="fas fa-circle" id="cercle-photo-neuf"></i>
-                <a class="lien" href="images/portfolio/full.jpg"><i class="far fa-eye"></i></a>
-            </div>
-        </div>
-        </div>
-    </div>
-    </div>
+                <figure class="photo-six">
+                    <img class="image-six" src="images/portfolio/06.jpg" alt="Projet Colas">
+                    <figcaption class="desc-photo-six">
+                        <h4 class="titre-photo">Colas Rhône-Alpes</h4>
+                        <p class="p-photo">Création d'application web.</p>
+                        <div id="div-cercle-photo">
+                            <i class="fas fa-circle" id="cercle-photo"></i>
+                            <a class="lien" href="images/portfolio/06.jpg"><i class="far fa-eye"></i></a>
+                        </div>
+                    </figcaption>
+                </figure>
 
-   <div id="contact">
-       <div class="form-contact">
-           <h4 class="titre-contact">Contact info</h4>
-           <p class="text-contact"><span class="bold-text-form">WebAgency SAS</span><br>
-               25 rue d'Hauteville 75010 Paris <br>
-               Tél : 01 02 03 04 05</p>
-           <form class="form">
-               <input class="input" type="text" placeholder="Name">
-               <input class="input" type="email" placeholder="Email">
-               <input class="input" type="text" placeholder="Subject">
-               <textarea placeholder="Message"></textarea>
-               <input class="submit" type="submit" value="Send Message">
-           </form>
-       </div>
-       <div class="map-color"></div>
-    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2214246079893!2d2.3476369152022136!3d48.87305530762882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25%20Rue%20d&#39;Hauteville%2C%2075010%20Paris!5e0!3m2!1sfr!2sfr!4v1570007825934!5m2!1sfr!2sfr"></iframe>
-    </div>
+                <figure class="photo-sept">
+                    <img class="image-sept" src="images/portfolio/07.jpg" alt="Projet Ugitech">
+                    <figcaption class="desc-photo-sept">
+                        <h4 class="titre-photo">Ugitech</h4>
+                        <p class="p-photo">Création de sites E-commerce.</p>
+                        <div id="div-cercle-photo">
+                            <i class="fas fa-circle" id="cercle-photo"></i>
+                            <a class="lien" href="images/portfolio/07.jpg"><i class="far fa-eye"></i></a>
+                        </div>
+                    </figcaption>
+                </figure>
 
+                <figure class="photo-huit">
+                    <img class="image-huit" src="images/portfolio/08.jpg" alt="Projet Mabeo">
+                    <figcaption class="desc-photo-huit">
+                        <h4 class="titre-photo">Mabeo Industries</h4>
+                        <p class="p-photo">Création de sites E-commerce.</p>
+                        <div id="div-cercle-photo">
+                            <i class="fas fa-circle" id="cercle-photo"></i>
+                            <a class="lien" href="images/portfolio/08.jpg"><i class="far fa-eye"></i></a>
+                        </div>
+                    </figcaption>
+                </figure>
+            </aside>
+            <aside class="conteneur-photo" id="photo-resp-tablette">
+                <figure class="photo-neuf">
+                    <img class="image-neuf" src="images/portfolio/full.jpg" alt="Projet Big Fernand">
+                    <figcaption class="desc-photo-neuf">
+                        <h4 class="titre-photo">Big Fernand</h4>
+                        <p class="p-photo">Création de site vitrine.</p>
+                        <div id="div-cercle-photo">
+                            <i class="fas fa-circle" id="cercle-photo"></i>
+                            <a class="lien" href="images/portfolio/full.jpg"><i class="far fa-eye"></i></a>
+                        </div>
+                    </figcaption>
+                </figure>
+            </aside>
+        </section>
+    </section>
+
+    <!-- formulaire contact + map -->
+    <footer id="contact">
+        <aside class="form-contact">
+            <h4 class="titre-contact">Contact info</h4>
+            <p class="text-contact"><span class="bold-text-form">WebAgency SAS</span><br>
+                25 rue d'Hauteville 75010 Paris <br>
+                Tél : 01 02 03 04 05</p>
+            <form class="form">
+                <input class="input" type="text" placeholder="Name">
+                <input class="input" type="email" placeholder="Email">
+                <input class="input" type="text" placeholder="Subject">
+                <textarea placeholder="Message"></textarea>
+                <input class="submit" type="submit" value="Send Message">
+            </form>
+        </aside>
+        <div class="map-color"></div>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2214246079893!2d2.3476369152022136!3d48.87305530762882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25%20Rue%20d&#39;Hauteville%2C%2075010%20Paris!5e0!3m2!1sfr!2sfr!4v1570007825934!5m2!1sfr!2sfr"></iframe>
+    </footer>
 </body>
 
 </html>
