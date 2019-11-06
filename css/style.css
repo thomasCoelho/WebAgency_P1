@@ -689,7 +689,7 @@
     }
 
 /*debut mediaqueries, fin adaptation pour mobiles ligne 948*/
-@media all and (max-device-width: 425px) {
+@media all and (max-device-width: 625px) {
 
     .nav-menu,
     .menu {
