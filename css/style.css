@@ -537,7 +537,7 @@
         font-family: 'roboto-Medium';
     }
 
-    #div-cercle-photo {
+    .div-cercle-photo {
         position: relative;
         top: -65px;
         margin-left: 75%;
@@ -547,7 +547,7 @@
         border-radius: 100%;
     }
 
-    #cercle-photo {
+    .cercle-photo {
         position: relative;
         margin-left: 3px;
         margin-top: 3px;
@@ -892,16 +892,15 @@
     .desc-photo-neuf {
         position: absolute;
         width: 80%;
-        max-height: auto;
     }
 
-    #cercle-photo {
+    .cercle-photo {
         font-size: 35px;
         margin-left: 2.7px;
         margin-top: 2px;
     }
 
-    #div-cercle-photo {
+    .div-cercle-photo {
         width: 40px;
         height: 40px;
     }
@@ -1118,7 +1117,7 @@
         display: flex;
     }
 
-    #div-cercle-photo {
+    .div-cercle-photo {
         top: -70px;
         margin-left: 75%;
         width: 50px;
@@ -1131,7 +1130,7 @@
         right: 1px;
     }
 
-    #cercle-photo {
+    .cercle-photo {
         font-size: 44px;
         margin-left: 3px;
         margin-top: 3px;
